@@ -1,0 +1,12 @@
+/* ----- G R I D - - - - - */
+.BitcoinPriceContainer{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-row: auto;
+}
+
+/* - - - - - S T Y L E - - - - - */
+.BitcoinPriceContainer{
+	width: 150px;
+	height: 50px;
+}
