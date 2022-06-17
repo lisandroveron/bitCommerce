@@ -1,0 +1,21 @@
+header{
+	display: grid;
+	grid-template-columns: 4rem 1fr 4rem;
+	grid-template-rows: 4rem;
+	grid-template-areas: "settings logo menu";
+}
+.logo{
+	display: grid;
+	grid-template-columns: 4rem auto;
+	grid-template-rows: 4rem;
+	grid-template-areas: "B itCommerce";
+	grid-area: logo;
+	justify-content: center;
+	align-items: center;
+}
+.logo__B{
+	grid-area: B;
+}
+.logo__itCommerce{
+	grid-area: itCommerce;
+}
