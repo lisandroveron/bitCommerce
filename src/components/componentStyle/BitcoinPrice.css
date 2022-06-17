@@ -1,12 +1,25 @@
 /* ----- G R I D - - - - - */
 .BitcoinPriceContainer{
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: auto auto;
 	grid-row: auto;
+	grid-column-gap: 5px;
 }
 
 /* - - - - - S T Y L E - - - - - */
 .BitcoinPriceContainer{
 	width: 150px;
+}
+.BitcoinPriceLogo{
 	height: 50px;
+	width: 50px;
+}
+.BitcoinPriceContainer p{
+	margin: auto;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.BitcoinPriceContainer p span{
+	font-weight: normal;
+	font-size: 1rem;
 }
