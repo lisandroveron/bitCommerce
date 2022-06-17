@@ -24,8 +24,8 @@ function BitcoinPrice(){
 	// Return HTML code
 	return(<>
 		<div className="BitcoinPriceContainer">
-			<BitcoinLogo className="BitcoinLogo" />
-			<h2 className="BitcoinPrice">${price}</h2>
+			<BitcoinLogo className="BitcoinPriceLogo" />
+			<p className="BitcoinPrice">{price}<span>USD</span></p>
 		</div>
 	</>);
 };
