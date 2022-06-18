@@ -3,12 +3,12 @@
 	display: grid;
 	grid-template-columns: auto auto;
 	grid-row: auto;
-	grid-column-gap: 5px;
+	grid-column-gap: 2px;
 }
 
 /* - - - - - S T Y L E - - - - - */
 .BitcoinPriceContainer{
-	width: 150px;
+	width: max-content;
 }
 .BitcoinPriceLogo{
 	height: 50px;
