@@ -16,7 +16,6 @@ function BitcoinPrice(){
 				.then((response) => response.json())
 				.then((data) => {
 					setPrice(data.bitcoin.usd);
-					console.log(data.bitcoin.usd);
 				});
 	};
 	getPrice();
