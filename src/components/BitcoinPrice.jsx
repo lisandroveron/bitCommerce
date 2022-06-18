@@ -11,15 +11,20 @@ function BitcoinPrice(){
 	// Initial state
 	const [price, setPrice] = useState();
 
-	// Component Update
-	useInterval(() => {
-		fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd")
+	async function getPrice(){
+		await fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd")
 				.then((response) => response.json())
 				.then((data) => {
 					setPrice(data.bitcoin.usd);
 					console.log(data.bitcoin.usd);
 				});
-	}, 2000);
+	};
+	getPrice();
+
+	// Component Update
+	useInterval(() => {
+		getPrice();
+	}, 1000);
 
 	// Return HTML code
 	return(<>
