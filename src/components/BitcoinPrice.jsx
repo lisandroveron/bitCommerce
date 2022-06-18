@@ -1,5 +1,5 @@
 // Packages
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 // Assets
 import { ReactComponent as BitcoinLogo } from "../assets/svg/bitcoin.svg";
 // CSS files
