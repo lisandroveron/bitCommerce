@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bitCommerce/static/css/main.48700f2a.css",
+    "main.js": "/bitCommerce/static/js/main.32c541c5.js",
+    "static/media/bitcoin.svg": "/bitCommerce/static/media/bitcoin.e4343747c3416b0c94a928589e8ff31f.svg",
+    "index.html": "/bitCommerce/index.html",
+    "main.48700f2a.css.map": "/bitCommerce/static/css/main.48700f2a.css.map",
+    "main.32c541c5.js.map": "/bitCommerce/static/js/main.32c541c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48700f2a.css",
+    "static/js/main.32c541c5.js"
+  ]
+}
