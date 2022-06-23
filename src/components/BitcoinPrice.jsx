@@ -23,13 +23,13 @@ function BitcoinPrice(){
 	// Component Update
 	useInterval(() => {
 		getPrice();
-	}, 1000);
+	}, 10000);
 
 	// Return HTML code
 	return(<>
-		<div className="BitcoinPriceContainer">
-			<BitcoinLogo className="BitcoinPriceLogo" />
-			<p className="BitcoinPrice">{price}<span>USD</span></p>
+		<div className="BitcoinPrice">
+			<BitcoinLogo className="BitcoinPrice__Logo" />
+			<p className="BitcoinPrice__Price">{price}<span>USD</span></p>
 		</div>
 	</>);
 };

@@ -1,25 +1,24 @@
 /* ----- G R I D - - - - - */
-.BitcoinPriceContainer{
+.BitcoinPrice{
 	display: grid;
 	grid-template-columns: auto auto;
 	grid-row: auto;
-	grid-column-gap: 2px;
+	align-items: center;
 }
 
 /* - - - - - S T Y L E - - - - - */
-.BitcoinPriceContainer{
+.BitcoinPrice{
 	width: max-content;
 }
-.BitcoinPriceLogo{
+.BitcoinPrice__Logo{
+	padding: 10px;
 	height: 50px;
 	width: 50px;
 }
-.BitcoinPriceContainer p{
-	margin: auto;
+.BitcoinPrice p{
 	font-weight: bold;
-	font-size: 1.5rem;
 }
-.BitcoinPriceContainer p span{
-	font-weight: normal;
+.BitcoinPrice span{
 	font-size: 1rem;
+	font-weight: normal;
 }
