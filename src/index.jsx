@@ -7,9 +7,10 @@ import { ReactComponent as BitcoinLogo } from "./assets/svg/bitcoin.svg";
 import BitcoinPrice from "./components/BitcoinPrice.jsx";
 import MyWallet from "./components/MyWallet.jsx";
 // CSS files
-import "./css/grid.css";
 import "./css/normalize.css";
+import "./css/grid.css";
 import "./css/index.css";
+import "./css/responsive.css";
 
 
 // ---------- CODE ---------- //
