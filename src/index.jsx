@@ -5,6 +5,7 @@ import ReactDOM from "react-dom/client";
 import { ReactComponent as BitcoinLogo } from "./assets/svg/bitcoin.svg";
 // Components
 import BitcoinPrice from "./components/BitcoinPrice.jsx";
+import MyWallet from "./components/MyWallet.jsx";
 // CSS files
 import "./css/grid.css";
 import "./css/normalize.css";
@@ -22,7 +23,10 @@ const App = <>
 		</div>
 	</header>
 	<main>
-		<BitcoinPrice />
+		<div className="moneyBar">
+			<BitcoinPrice />
+			<MyWallet />
+		</div>
 	</main>
 	<footer>Copyright © 2022 bitCommerce</footer>
 </>;
