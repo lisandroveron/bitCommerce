@@ -1,8 +1,21 @@
+@font-face{
+	font-family: bitcoin;
+	src: url("../assets/font/bitcoin-webfont.ttf");
+}
+
 body{
 	background-color: #2b2a33;
 	color: white;
+	margin-left: 5px;
+	margin-right: 5px;
 }
-
+.moneyBar{
+	border-bottom: 2px solid #f7931a;
+}
+.moneyBar p{
+	font-size: 1.5rem;
+	margin: 0;
+}
 footer{
 	text-align: center;
 	bottom: 0;

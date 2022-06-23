@@ -1,3 +1,4 @@
+/* - - - - - H E A D E R - - - - - */
 header{
 	display: grid;
 	grid-template-columns: 4rem 1fr 4rem;
@@ -18,4 +19,21 @@ header{
 }
 .logo__itCommerce{
 	grid-area: itCommerce;
+}
+
+/* - - - - - M A I N - - - - - */
+.moneyBar{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: "BitcoinPrice MyWallet";
+	align-items: center;
+}
+.BitcoinPrice{
+	grid-area: BitcoinPrice;
+	justify-self: left;
+}
+.MyWallet{
+	grid-area: MyWallet;
+	justify-self: right;
 }
