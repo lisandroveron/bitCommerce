@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bitCommerce/static/css/main.03cec167.css",
+    "main.css": "/bitCommerce/static/css/main.66fd431f.css",
     "main.js": "/bitCommerce/static/js/main.0c0046cd.js",
     "static/media/bitcoin-webfont.ttf": "/bitCommerce/static/media/bitcoin-webfont.cbca7cc486e3b25e78d6.ttf",
     "static/media/bitcoin.svg": "/bitCommerce/static/media/bitcoin.e4343747c3416b0c94a928589e8ff31f.svg",
     "index.html": "/bitCommerce/index.html",
-    "main.03cec167.css.map": "/bitCommerce/static/css/main.03cec167.css.map",
+    "main.66fd431f.css.map": "/bitCommerce/static/css/main.66fd431f.css.map",
     "main.0c0046cd.js.map": "/bitCommerce/static/js/main.0c0046cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.03cec167.css",
+    "static/css/main.66fd431f.css",
     "static/js/main.0c0046cd.js"
   ]
 }
