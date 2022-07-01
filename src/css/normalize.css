@@ -18,6 +18,11 @@ html {
   box-sizing: border-box;
 }
 
+/* C U S T O M */
+p{
+  margin: 0;
+}
+
 html, body{
   height: 100%;
 }

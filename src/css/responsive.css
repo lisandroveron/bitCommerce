@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px){
-	body{
+	#root{
 		display: grid;
 		grid-template-columns: minmax(300px, 600px);
 	}

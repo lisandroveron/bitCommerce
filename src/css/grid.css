@@ -1,18 +1,29 @@
+#root{
+	display: grid;
+	grid-template-columns: minmax(600px, 960px);
+	grid-template-rows: 4rem auto 2rem;
+	grid-template-areas: "header"
+						 "main"
+						 "footer";
+	justify-content: center;
+	justify-self: center;
+}
 /* - - - - - H E A D E R - - - - - */
 header{
 	display: grid;
+	grid-template-areas: "settings logo menu";
 	grid-template-columns: auto;
 	grid-template-rows: 4rem;
-	grid-template-areas: "settings logo menu";
+	grid-area: header;
 }
 .logo{
+	align-items: center;
 	display: grid;
+	grid-area: logo;
+	grid-template-areas: "B itCommerce";
 	grid-template-columns: 4rem auto;
 	grid-template-rows: 4rem;
-	grid-template-areas: "B itCommerce";
-	grid-area: logo;
 	justify-content: center;
-	align-items: center;
 }
 .logo__B{
 	grid-area: B;
@@ -21,19 +32,25 @@ header{
 	grid-area: itCommerce;
 }
 
-body{
-	display: grid;
-	grid-template-columns: minmax(600px, 960px);
-	justify-content: center;
-}
-
 /* - - - - - M A I N - - - - - */
-.moneyBar{
+/* - - - - - - - - - - - - - - */
+main{
 	display: grid;
+	grid-template-areas: "moneyBar"
+						 "productsList";
+	grid-template-columns: auto;
+	grid-template-rows: max-content auto;
+	grid-area: main;
+	grid-gap: 5px;
+}
+/* -> M O N E Y - B A R -> */
+.moneyBar{
+	align-items: center;
+	display: grid;
+	grid-area: moneyBar;
+	grid-template-areas: "BitcoinPrice MyWallet";
 	grid-template-columns: auto auto;
 	grid-template-rows: auto;
-	grid-template-areas: "BitcoinPrice MyWallet";
-	align-items: center;
 }
 .BitcoinPrice{
 	grid-area: BitcoinPrice;
@@ -42,4 +59,22 @@ body{
 .MyWallet{
 	grid-area: MyWallet;
 	justify-self: right;
+}
+/* -> P R O D U C T S - L I S T -> */
+.productsList{
+	display: grid;
+	grid-area: productsList;
+	grid-template-columns: repeat(auto-fill, 180px);
+	grid-template-rows: repeat(auto-fill, 230px);
+	justify-content: center;
+	grid-gap: 5px;
+}
+
+/* - - - - - F O O T E R - - - - - */
+/* - - - - - - - - - - - - - - - - */
+footer{
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	grid-area: footer;
 }
