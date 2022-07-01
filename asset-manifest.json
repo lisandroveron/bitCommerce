@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/bitCommerce/static/css/main.66fd431f.css",
-    "main.js": "/bitCommerce/static/js/main.0c0046cd.js",
+    "main.css": "/bitCommerce/static/css/main.86e97ae4.css",
+    "main.js": "/bitCommerce/static/js/main.a9044425.js",
+    "static/media/rickgun.jpg": "/bitCommerce/static/media/rickgun.fc62cdc2f17314812706.jpg",
     "static/media/bitcoin-webfont.ttf": "/bitCommerce/static/media/bitcoin-webfont.cbca7cc486e3b25e78d6.ttf",
     "static/media/bitcoin.svg": "/bitCommerce/static/media/bitcoin.e4343747c3416b0c94a928589e8ff31f.svg",
     "index.html": "/bitCommerce/index.html",
-    "main.66fd431f.css.map": "/bitCommerce/static/css/main.66fd431f.css.map",
-    "main.0c0046cd.js.map": "/bitCommerce/static/js/main.0c0046cd.js.map"
+    "main.86e97ae4.css.map": "/bitCommerce/static/css/main.86e97ae4.css.map",
+    "main.a9044425.js.map": "/bitCommerce/static/js/main.a9044425.js.map"
   },
   "entrypoints": [
-    "static/css/main.66fd431f.css",
-    "static/js/main.0c0046cd.js"
+    "static/css/main.86e97ae4.css",
+    "static/js/main.a9044425.js"
   ]
 }
