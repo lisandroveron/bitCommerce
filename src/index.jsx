@@ -6,6 +6,7 @@ import { ReactComponent as BitcoinLogo } from "./assets/svg/bitcoin.svg";
 // Components
 import BitcoinPrice from "./components/BitcoinPrice.jsx";
 import MyWallet from "./components/MyWallet.jsx";
+import Product from "./components/Product.jsx";
 // CSS files
 import "./css/normalize.css";
 import "./css/grid.css";
@@ -28,8 +29,43 @@ const App = <>
 			<BitcoinPrice />
 			<MyWallet />
 		</div>
+		<div className="productsList">
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+			<Product />
+		</div>
 	</main>
-	<footer>Copyright © 2022 bitCommerce</footer>
+	<footer><p>Copyright © 2022 bitCommerce</p></footer>
 </>;
 
 root.render(App);
