@@ -1,0 +1,41 @@
+/* - - - - - G R I D - - - - - */
+.Product{
+	display: grid;
+	grid-template-areas: "img"
+						 "productName"
+						 "buy";
+	grid-template-columns: auto;
+	grid-template-rows: 120px 70px 40px;
+	justify-items: center;
+	align-items: center;
+}
+
+.img{
+	display: grid;
+	grid-area: img;
+	align-items: center;
+}
+.productName{
+	grid-area: productName;
+}
+.buy{
+	grid-area: buy;
+}
+
+/* - - - - - S T Y L E S - - - - - */
+.Product{
+	border: 1px solid #161616;
+}
+.img{
+	height: 100%;
+	background-color: black;
+}
+img{
+	width: 100%;
+}
+.productName{
+	text-align: center;
+}
+.buy{
+	width: 100px;
+}
