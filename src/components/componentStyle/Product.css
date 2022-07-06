@@ -1,41 +1,89 @@
 /* - - - - - G R I D - - - - - */
 .Product{
+	align-items: center;
 	display: grid;
 	grid-template-areas: "img"
 						 "productName"
 						 "buy";
 	grid-template-columns: auto;
-	grid-template-rows: 120px 70px 40px;
+	grid-template-rows: 130px 60px 40px;
 	justify-items: center;
-	align-items: center;
 }
 
 .img{
+	align-content: center;
 	display: grid;
 	grid-area: img;
-	align-items: center;
 }
 .productName{
 	grid-area: productName;
 }
 .buy{
+	align-items: center;
+	display: grid;
 	grid-area: buy;
+	grid-template-areas: "buyButton prices";
+	grid-template-columns: auto min-content;
+	grid-template-rows: 100%;
+}
+.buyButton{
+	grid-area: buyButton;
+}
+.prices{
+	align-items: center;
+	display: grid;
+	grid-area: prices;
+	grid-template-areas: "prices__bitcoinPrice"
+						 "prices__dollarPrice";
+	grid-template-columns: max-content;
+	grid-template-rows: auto auto;
+}
+.prices__bitcoinPrice{
+	grid-area: prices__bitcoinPrice;
+}
+.prices__dollarPrice{
+	grid-area: prices__dollarPrice;
 }
 
 /* - - - - - S T Y L E S - - - - - */
 .Product{
-	border: 1px solid #161616;
+	background-color: #161616;
 }
 .img{
-	height: 100%;
 	background-color: black;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
 }
-img{
+.img img{
 	width: 100%;
 }
 .productName{
 	text-align: center;
 }
 .buy{
-	width: 100px;
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+.buyButton{
+	background-color: #f7931a;
+	border: none;
+	height: 100%;
+	width: 100%;
+}
+.buyButton:active{
+	background-color: #d88117;
+}
+.prices{
+	border-left: 1px solid #161616;
+}
+.prices__bitcoinPrice{
+	background-color: #f7931a;
+}
+.prices__bitcoinPrice span{
+	font-family: bitcoin;
+}
+.prices__dollarPrice{
+	background-color: #006302;
 }
