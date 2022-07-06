@@ -30,11 +30,11 @@ const App = <>
 			<MyWallet />
 		</div>
 		<div className="productsList">
-			<Product />
-			<Product />
-			<Product />
-			<Product />
-			<Product />
+			<Product imgsrc={require("./assets/img/RickAndMortyPortalGun.jpg")} productName="Rick and Morty portal gun" />
+			<Product imgsrc={require("./assets/img/Ricks9GaugePlasmaPistol.jpg")} productName="Rick's 9 Gauge Plasma Pistol" />
+			<Product imgsrc={require("./assets/img/MortyLaserGun.jpg")} productName="Morty Laser Gun" />
+			<Product imgsrc={require("./assets/img/MortyCustomRaygun.jpg")} productName="Morty Custom Raygun" />
+			<Product imgsrc={require("./assets/img/DancingPickleRickSpeaker.png")} productName="Dancing Pickle Rick Speaker" />
 			<Product />
 			<Product />
 			<Product />
