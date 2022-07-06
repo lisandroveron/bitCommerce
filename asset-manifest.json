@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/bitCommerce/static/css/main.86e97ae4.css",
-    "main.js": "/bitCommerce/static/js/main.a9044425.js",
-    "static/media/rickgun.jpg": "/bitCommerce/static/media/rickgun.fc62cdc2f17314812706.jpg",
+    "main.css": "/bitCommerce/static/css/main.779be2bd.css",
+    "main.js": "/bitCommerce/static/js/main.ee9637e8.js",
+    "static/media/DancingPickleRickSpeaker.png": "/bitCommerce/static/media/DancingPickleRickSpeaker.9e184f32bdc1418ab5d5.png",
+    "static/media/MortyCustomRaygun.jpg": "/bitCommerce/static/media/MortyCustomRaygun.9c490597e40a8c2108d4.jpg",
+    "static/media/RickAndMortyPortalGun.jpg": "/bitCommerce/static/media/RickAndMortyPortalGun.fc62cdc2f17314812706.jpg",
+    "static/media/MortyLaserGun.jpg": "/bitCommerce/static/media/MortyLaserGun.2e10db76389ca962569f.jpg",
+    "static/media/Ricks9GaugePlasmaPistol.jpg": "/bitCommerce/static/media/Ricks9GaugePlasmaPistol.539bd7fcf513852d7c79.jpg",
     "static/media/bitcoin-webfont.ttf": "/bitCommerce/static/media/bitcoin-webfont.cbca7cc486e3b25e78d6.ttf",
     "static/media/bitcoin.svg": "/bitCommerce/static/media/bitcoin.e4343747c3416b0c94a928589e8ff31f.svg",
     "index.html": "/bitCommerce/index.html",
-    "main.86e97ae4.css.map": "/bitCommerce/static/css/main.86e97ae4.css.map",
-    "main.a9044425.js.map": "/bitCommerce/static/js/main.a9044425.js.map"
+    "main.779be2bd.css.map": "/bitCommerce/static/css/main.779be2bd.css.map",
+    "main.ee9637e8.js.map": "/bitCommerce/static/js/main.ee9637e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.86e97ae4.css",
-    "static/js/main.a9044425.js"
+    "static/css/main.779be2bd.css",
+    "static/js/main.ee9637e8.js"
   ]
 }
